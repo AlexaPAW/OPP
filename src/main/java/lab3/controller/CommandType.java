@@ -1,0 +1,38 @@
+package lab3.controller;
+
+public enum CommandType
+{
+    NONE,
+
+    MOVE_UP,
+    MOVE_DOWN,
+    MOVE_LEFT,
+    MOVE_RIGHT,
+
+    SHOOT_UP,
+    SHOOT_DOWN,
+    SHOOT_LEFT,
+    SHOOT_RIGHT,
+
+    NEW_GAME,
+    EXIT,
+    ABOUT,
+    HIGH_SCORES,
+
+    PAUSE,
+    RESUME,
+
+    DEBUG_TOGGLE_MODE,
+    DEBUG_GOD_TOGGLE,
+    DEBUG_HEAL_PLAYER,
+    DEBUG_DAMAGE_PLAYER,
+    DEBUG_BUFF_DAMAGE,
+    DEBUG_KILL_ENEMIES,
+    DEBUG_SPAWN_CHEST,
+    DEBUG_SPAWN_SLIME,
+    DEBUG_SPAWN_SHOOTER,
+    DEBUG_SPAWN_TANK,
+    DEBUG_SPAWN_BOSS,
+    DEBUG_WIN,
+    DEBUG_LOSE
+}
